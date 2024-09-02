@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrp{
+    position: relative;
+    background-image: url(https://images.unsplash.com/photo-1518791841217-8f162f1e1131?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: auto;
+    width: 100%;
+    height: 100vh;
+}
+.portada{
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    margin: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 600;
+}
+
+.contenido{
+    color: #fff;
+    display: flex;
+}
+.info{
+    margin: auto;
+    padding-top: 50px;
+    width: 70%;
+    text-align: center;
+}
+.info h1{
+    font-size: 3.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    /* text-align: center; */
+    /* width: 70%; */
+}
+.info a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 4px;
+}
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
